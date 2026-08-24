@@ -5,12 +5,19 @@
  * Version: 0.1.0
  * Author: MRN Web Designs
  * Text Domain: mrn-hierarchical-menu-taxonomies
+ *
+ * @package MRN_Hierarchical_Menu_Taxonomies
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+/**
+ * Expands hierarchical taxonomy panels in the classic Menu Builder.
+ *
+ * @package MRN_Hierarchical_Menu_Taxonomies
+ */
 final class MRN_Hierarchical_Menu_Taxonomies {
 	/**
 	 * Plugin version.

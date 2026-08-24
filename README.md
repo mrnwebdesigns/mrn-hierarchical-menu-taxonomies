@@ -1,5 +1,7 @@
 # MRN Hierarchical Menu Taxonomies
 
+The canonical source lives in the independent `mrnwebdesigns/mrn-hierarchical-menu-taxonomies` repository; MRN uses a local checkout symlink for stack integration.
+
 WordPress's classic Menu Builder limits hierarchical taxonomy panels to 50
 globally alphabetized terms per page. On large WooCommerce catalogs, this can
 separate a product category from its parent and make the child appear to be a

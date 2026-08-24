@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset name="MRN Hierarchical Menu Taxonomies">
+	<description>Release-readiness WordPress checks for the MRN Hierarchical Menu Taxonomies plugin.</description>
+
+	<arg value="ps"/>
+	<arg name="basepath" value="./"/>
+	<arg name="parallel" value="1"/>
+	<arg name="extensions" value="php"/>
+
+	<file>.</file>
+
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/tests/*</exclude-pattern>
+
+	<config name="minimum_supported_wp_version" value="6.0"/>
+	<config name="testVersion" value="7.4-8.3"/>
+
+	<rule ref="Generic.PHP.Syntax"/>
+	<rule ref="Generic.VersionControl.GitMergeConflict"/>
+	<rule ref="WordPress"/>
+</ruleset>
