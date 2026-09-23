@@ -1,10 +1,6 @@
 <?php
 /**
- * Plugin Name: MRN Hierarchical Menu Taxonomies
- * Description: Shows complete parent/child product-category trees in the WordPress Menu Builder.
- * Version: 0.1.0
- * Author: MRN Web Designs
- * Text Domain: mrn-hierarchical-menu-taxonomies
+ * MRN Hierarchical Menu Taxonomies runtime.
  *
  * @package MRN_Hierarchical_Menu_Taxonomies
  */
@@ -22,7 +18,7 @@ final class MRN_Hierarchical_Menu_Taxonomies {
 	/**
 	 * Plugin version.
 	 */
-	const VERSION = '0.1.0';
+	const VERSION = '0.1.1';
 
 	/**
 	 * Register the admin-only integration.
