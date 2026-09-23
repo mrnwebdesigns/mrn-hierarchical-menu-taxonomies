@@ -20,3 +20,8 @@ The plugin does not:
 
 Additional hierarchical taxonomies can opt in with the
 `mrn_hierarchical_menu_taxonomies` filter.
+
+The stable WordPress plugin entrypoint is
+`mrn-hierarchical-menu-taxonomies.php`. Runtime implementation remains in the
+class file so package upgrades preserve the activation key used by existing
+sites.
